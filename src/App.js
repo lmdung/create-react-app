@@ -1,24 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Return from './components/Return'
+import FormSingIn from './components/FormSignIn'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container App">
+      <div className="row">
+        <Return/>
+      </div>
+      <div className="row col-md-12 signIn">Sign in</div>
+      <div className="row">
+        <FormSingIn />
+      </div>
     </div>
   );
 }

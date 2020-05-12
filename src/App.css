@@ -1,3 +1,9 @@
+body {
+  padding: 15px;
+}
+div {
+  display: block;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +33,12 @@
 .App-link {
   color: #61dafb;
 }
-
+.signIn {
+  font-size: 60px;
+  font-weight: 600;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
